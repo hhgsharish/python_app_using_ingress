@@ -61,6 +61,7 @@ Modify the config file  to have the backend service ip in "python-reach-sample/r
         export default config;
 
 **Build image**
+
     cd python-reach-sample/react-ui
     docker build -t <docker-hub-username>/python-reach-frontend:latest . 
     Ex: 
