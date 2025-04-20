@@ -2,7 +2,7 @@
 
 > Make the one worker instance as T2.Xlarge and increase the memory to 20 to 30 gb (you can do this in volumes, increase the volume attached to worker ec2).
 
-> This will work with the images I have pushed to the docker hub. 
+> This will work with the images I have pushed to the docker hub. check docker_images.md file for details on pushing your own images
 
 **Step1:** 
 Install ingress
