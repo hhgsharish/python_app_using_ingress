@@ -1,5 +1,5 @@
 
-**Step1:** Checkout the repo 
+**Step1:** Checkout the repo and Build Backend Image
 
     git clone https://github.com/devopsdec24/python-reach-sample.git
     cd python-reach-sample/api-server-flask/
@@ -26,12 +26,15 @@ Modify the config file  to have the backend service ip in "python-reach-sample/r
 
 build image:
     
+    docker build -t <docker-hub-username>/python-reach-backend:latest . 
+    Ex: 
     docker build -t hhgsharish/python-reach-backend:latest . 
 
-**Step2:**
+**Step2:** Build Front End Image
     
     cd python-reach-sample/react-ui
-    
+    docker build -t <docker-hub-username>/python-reach-frontend:latest . 
+    Ex: 
     docker build -t hhgsharish/python-reach-frontend:latest . 
     
 **Step3:** 
