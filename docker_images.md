@@ -31,7 +31,8 @@
         # start app
         CMD ["npm", "start"]
 
-build image:
+
+**build image:**
     
     docker build -t <docker-hub-username>/python-reach-backend:latest . 
     Ex: 
