@@ -22,7 +22,7 @@ Modify the config file  to have the backend service ip in "python-reach-sample/r
             API_SERVER: BACKEND_SERVER
         };
 
-export default config;
+        export default config;
 
 build image:
     
